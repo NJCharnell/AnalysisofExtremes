@@ -50,7 +50,7 @@ axis(1,cex.axis=1.4)
 axis(2,cex.axis=1.4)
 title(xlab="x", ylab="PDF", cex.lab=1.4)
 
-#Fig 3.4: Weibull pdf with alpha=1 arond x=0
+#Fig 3.4: Weibull pdf with alpha=1 around x=0
 curve(drweibull, xlim=c(-1,1),ylim=c(0,1.1), xlab="",ylab="", xaxt="n", yaxt="n")
 axis(1,cex.axis=1.4)
 axis(2,cex.axis=1.4)
